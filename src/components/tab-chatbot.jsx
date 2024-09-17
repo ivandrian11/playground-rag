@@ -1,6 +1,5 @@
 'use client'
 import { useState, useRef, useEffect } from 'react'
-import ReactMardown from 'react-markdown'
 
 export default function Chatbot() {
   // State untuk query dan hasil percakapan
