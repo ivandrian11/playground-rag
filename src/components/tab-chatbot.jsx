@@ -95,7 +95,7 @@ export default function Chatbot() {
           }`}
           disabled={loading}
         >
-          {loading ? 'Sedang memproses...' : 'Cari Jawaban'}
+          {loading ? 'Sedang memproses...' : 'Tanyakan'}
         </button>
       </form>
     </main>
