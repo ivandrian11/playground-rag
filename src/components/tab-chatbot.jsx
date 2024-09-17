@@ -66,7 +66,7 @@ export default function Chatbot() {
               conversation.type === 'user' ? 'justify-end' : 'justify-start'
             }`}
           >
-            <ReactMardown
+            <p
               className={`p-4 rounded-lg max-w-md whitespace-pre-line ${
                 conversation.type === 'user'
                   ? 'bg-blue-500 text-white'
@@ -74,7 +74,7 @@ export default function Chatbot() {
               }`}
             >
               {conversation.text}
-            </ReactMardown>
+            </p>
           </div>
         ))}
       </div>
