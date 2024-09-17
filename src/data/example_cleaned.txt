@@ -1,0 +1,178 @@
+## Tools Requirements
+Berikut adalah tools yang dapat digunakan untuk melakukan review submission ini:
+* Wajib:
+  * [VS Code](https://code.visualstudio.com/download)
+  * Python (Sangat disarankan diinstal dengan [pyenv](https://github.com/pyenv/pyenv))
+  * [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+* Opsional:
+  * [Boilerplate Widget](https://www.dicoding.com/academysubmissions/review/boilerplate?boilerplate_filter=all_boilerplates&path=60&query=)
+## Langkah Pemeriksaan Submission
+### Proyek Pertama: Menyelesaikan Permasalahan Human Resources
+#### Pemeriksaan Berkas Submission
+  List berkas yang perlu diperiksa:
+  * Berkas **Jupyter Notebook** atau **Colab Notebook (.ipynb)**.
+  * Berkas **Markdown (.md)**.
+  * Berkas **requirements.txt**.
+  * Screenshot business dashboard: **<username_dicoding>-dashboard**.
+  * Berkas **metabase.db.mv.db**, jika membuat dashboard dengan metabase.
+  * Berkas-berkas lainnya yang diperlukan untuk menjalankan proyek, jika ada.
+  * Jika tidak terdapat salah satu dari berkas di atas, silakan langsung di-***reject*** saja.
+#### Pemeriksaan Kriteria Utama
+  * **Menggunakan Template Proyek yang Telah Disediakan**
+    #### Cara memeriksa
+      
+        1. Buka berkas **README.md** yang dikirimkan siswa.
+        2. Pastikan siswa menggunakan [template markdown](https://github.com/dicodingacademy/a590-Belajar-Penerapan-Data-Science/tree/a590_proyek_pertama/a590_proyek_pertama) yang telah disediakan.
+          * Siswa boleh menambahkan berkas atau folder pendukung lainnya selama masih mengikuti template. 
+          * Siswa boleh mengubah nama berkas atau folder yang terdapat dalam template proyek.
+      
+    
+    #### Ketentuan
+      ##### approved_submission
+        * Siswa telah menggunakan **template markdown** yang disediakan.
+      
+      ##### rejected_submission
+        * Siswa tidak menggunakan **template markdown** yang disediakan.
+      
+    
+  * **Menjalankan Seluruh Proses dalam Proyek Data Science**
+    #### Cara memeriksa
+      
+        1. Buka berkas **notebook** yang dikirimkan siswa.
+        2. Pastikan siswa menggunakan  [template notebook](https://github.com/dicodingacademy/a590-Belajar-Penerapan-Data-Science/blob/a590_proyek_pertama/a590_proyek_pertama/notebook.ipynb) yang telah disediakan.
+        3. Pastikan siswa telah menjalankan notebook tersebut. Hal ini ditandai dengan adanya output dari setiap code cells. <br>
+             **Catatan:** Tahap modeling dan evaluation hanya dilakukan jika siswa membuat model machine learning.
+        4. Buka berkas **README.md** yang dikirimkan siswa.
+        5. Pastikan di dalamnya terdapat kesimpulan yang mampu menjawab permasalahan yang dihadapi oleh departement HR.
+      
+    
+    #### Ketentuan
+      ##### approved_submission
+        * Siswa telah menggunakan **template notebook** yang disediakan.
+        * Siswa telah menjalankan berkas **notebook**.
+        *  Siswa telah mengerjakan setiap tahapan yang ada.
+        * Kesimpulan siswa mampu menjawab permasalahan yang dihadapi oleh departement HR. 
+      
+      ##### rejected_submission
+        * Siswa tidak menggunakan **template notebook** yang telah disediakan.
+        * Siswa belum menjalankan berkas **notebook**.
+        * Terdapat tahapan yang belum dikerjakan (kecuali modeling dan evaluation).
+        * Kesimpulan yang diberikan siswa tidak menjawab permasalahan yang dihadapi oleh departement HR.
+          * Tidak menjelaskan karakteristik umum dari pegawai yang melakukan attrition. 
+      
+    
+  * **Membuat Minimal Satu Business Dashboard**
+    #### Cara memeriksa
+      
+        1. Buka berkas **README.md** yang dikirimkan siswa.
+        2. Periksa informasi mengenai business dashboard yang dikerjakan siswa.
+          * Menggunakan Metabase.
+            1. Pastikan siswa telah mengirimkan berkas **metabase.db.mv.db**.
+            2. Salin database tersebut ke dalam metabase dengan kode berikut.
+            3. Lakukan login menggunakan credential yang siswa cantumkan.
+          * Menggunakan Tableau Public/Looker Studio/Power BI.
+            1. Pastikan siswa telah mencantumkan tautan untuk mengakses business dashboard yang telah dibuat.
+            2. Buka tautan tersebut.
+          * Menggunakan Tools Lainnya.
+            1. Siswa boleh saja membuat business dashboard dengan streamlit atau tools lainnya selama visualisasi yang dibuat berjalan secara interaktif.
+            2. Yang terpenting, terdapat langkah untuk menjalankan dashboard tersebut dengan mudah.
+        3.  Pastikan dashboard tersebut tidak hanya menampilkan data dalam bentuk tabel, tetpa juga terdapat **visualisasi data yang mudah dipahami**.
+        4. Pastikan juga dashboard tersebut menampilkan menampilkan **faktor yang mempengaruhi tingginya attrition rate**.
+        5. Periksa **screenshot business dashboard** yang dikirimkan. Pastikan isinya sesuai dengan dashboard yang telah diakses.
+      
+    
+    #### Ketentuan
+      ##### approved_submission
+        * Siswa membuat dashboard yang sesuai dengan ketentuan di atas.
+      
+      ##### rejected_submission
+        * Siswa tidak menyertakan **screenshot business dashboard** yang telah dibuat.
+        * Nama berkas **screenshot** tidak berisi username dari siswa.
+        * Tidak ada akses untuk membuka dashboard yang telah dibuat.
+        * Siswa hanya menampilkan data dalam bentuk tabel tanpa disertai visualisasi yang mudah dipahami.
+        * Siswa tidak menampilkan faktor yang mempengaruhi tingginya attrition rate.
+      
+    
+#### Pemeriksaan Penerapan Saran
+  * **Membuat Video Penjelasan Singkat**
+    #### Cara memeriksa
+      
+        1. Jalankan video **<username_dicoding>-video** yang dikirimkan siswa.
+        2. Pastikan video tersebut menjelaskan dua poin berikut.
+          * Menjelaskan business dashboard yang telah dibuat.
+          * Menjelaskan kesimpulan atau conclusion dari dashboard tersebut.
+        3. **Tips:** tonton dengan kecepatan 1.25X untuk mempercepat proses review.
+      
+    
+    #### Ketentuan
+      ##### approved_submission
+        * Siswa telah membuat vidio sesuai dengan ketentuan di atas.
+      
+      ##### rejected_submission
+        * Siswa tidak menjelaskan seluruh poin di atas atau penjelasan yang disampaikan masih kurang tepat.
+        * Video tidak dapat dijalankan dengan baik.
+      
+    
+  * **Memberikan Beberapa Rekomendasi Action Items**
+    #### Cara memeriksa
+      
+        1. Buka berkas **README.md** yang dikirimkan siswa.
+        2. Pastikan siswa memberikan **minimal dua action item** yang dapat dilakukan perusahaan guna menyelesaikan masalahnya.
+        3. Action item tersebut harus dibuat berdasarkan insight data dari analisis yang telah dilakukan.
+      
+    
+    #### Ketentuan
+      ##### approved_submission
+        * Siswa memberikan action item berdasarkan insight dari data.
+        * Siswa menuliskan action item yang masuk akal untuk diimplementasikan.
+      
+      ##### rejected_submission
+        * Siswa memberikan action item tanpa didukung oleh data yang jelas.
+        * Siswa menuliskan action item yang mustahil untuk diimplementasikan. Contoh: menaikan gaji karyawan hingga 5X lipat untuk meningkatkan employee satisfaction. 
+      
+    
+  * **Membuat Visualisasi Data yang Baik dan Efektif**
+    #### Cara memeriksa
+      
+        1. Buka atau jalankan dashboard yang telah dibuat siswa.
+        2. Fokuslah menilai visualisasi data pada dashboard tersebut.
+          * Pastikan visualisasi data yang dibuat sesuai dengan prinsip desain dan integritas yang telah dibahas di materi [Prinsip-Prinsip dalam Visualisasi Data](https://www.dicoding.com/academies/555/tutorials/31135).
+          * Pastikan visualisasi data yang dibuat cukup efektif untuk menyampaikan pesan yang ingin disampaikan. 
+        3. Pada proses review ini, kamu dapat memberikan saran pada siswa untuk menghasilkan visualisasi data yang lebih baik.
+      
+    
+    #### Ketentuan
+      ##### approved_submission
+        * Seluruh visualisasi data yang dibuat sudah menerapkan prinsip di atas.
+      
+      ##### rejected_submission
+        * Terdapat visualisasi data yang belum menerapkan prinsip di atas. Kesalahan visualisasi terbanyak yang dilakukan siswa ialah **Distracts**.
+        * Viusalisasi data yang dibuat belum efektif untuk menyampaikan pesan.
+      
+    
+  * **Membuat Model Machine Learning**
+    #### Cara memeriksa
+      
+        1. Pastikan pada berkas **notebook** terdapat pengerjaan tahap modeling dan evaluation.
+        2. Buka berkas **Python** yang dikirimkan siswa untuk menjalankan proses prediksi.
+        3. Pastikan berkas tersebut dapat menghasilkan sebuah prediksi dengan baik. 
+      
+    
+    #### Ketentuan
+      ##### approved_submission
+        * Siswa memenuhi melampirkan berkas **Python** (dapat dijalankan), model yang telah dilatih, dan menjalankan seluruh proses dalam proyek data science.
+      
+      ##### rejected_submission
+        * Siswa tidak mengirimkan berkas **Python** beserta berkas pendukungnya (model).
+        * Siswa tidak mengerjakan tahap modeling dan evaluation pada berkas **notebook**.
+        * Berkas **Python** yang dikirimkan tidak dapat dijalankan dengan baik atau tidak dapat menghasilkan sebuah prediksi.
+      
+    
+#### Penilaian Submission
+| Nilai | Ketentuan |
+| --- | --- |
+| Bintang 1 | Semua ketentuan wajib terpenuhi, tetapi terdapat indikasi kecurangan atau plagiasi dalam mengerjakan submission. |
+| Bintang 2 | Semua ketentuan wajib terpenuhi, tetapi tidak menerapkan saran sama sekali. |
+| Bintang 3 | Semua ketentuan wajib terpenuhi dan menerapkan **minimal 1 saran** di atas. |
+| Bintang 4 | Semua ketentuan wajib terpenuhi dan menerapkan **minimal 2 saran**  di atas. |
+| Bintang 5 | Semua ketentuan wajib terpenuhi dan menerapkan **semua saran** di atas. |
